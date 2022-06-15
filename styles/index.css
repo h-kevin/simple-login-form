@@ -1,9 +1,7 @@
 /* Imports */
-
 @import url('./fonts.css');
 
 /* Global styles */
-
 html,
 body {
   margin: 0;
@@ -17,7 +15,6 @@ body {
 }
 
 /* Container */
-
 .container {
   position: absolute;
   top: 0;
@@ -46,9 +43,37 @@ body {
 }
 
 /* Form */
-
 .login-form {
+  padding: 0 25px;
   text-align: center;
+}
+
+/* Form input */
+.input {
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  border: 2px solid #F5F5F5;
+  border-radius: 50px;
+  color: #868D90;
+  padding: 10px;
+  text-align: center;
+  font-size: 87.5%;
+  font-family: 'Ubuntu-Medium';
+  letter-spacing: 1px;
+}
+
+/* Form input focused */
+.input:focus-visible {
+  border-color: #CDCDCD;
+  outline: none;
+}
+
+/* Form input placeholder */
+.input::placeholder {
+  color: #868C90;
+  opacity: 1;
 }
 
 /* Forgot password */

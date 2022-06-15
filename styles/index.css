@@ -1,0 +1,102 @@
+/* Imports */
+@import url('./fonts.css');
+
+/* Global styles */
+html,
+body {
+  margin: 0;
+  padding: 15px;
+  background-color: #F3EBF6;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Ubuntu-Regular';
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  height: max-content;
+  padding: 30px 30px 15px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 10px 35px 1px rgb(0, 0, 0, .15);
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  color: #8C55AA;
+  text-align: center;
+  font-size: 150%;
+  margin: 10px 0 50px;
+}
+
+/* Form */
+.login-form {
+  padding: 0 25px;
+  text-align: center;
+}
+
+/* Form input */
+.input {
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  border: 2px solid #F5F5F5;
+  border-radius: 50px;
+  color: #868D90;
+  padding: 10px;
+  text-align: center;
+  font-size: 87.5%;
+  font-family: 'Ubuntu-Medium';
+  letter-spacing: 1px;
+}
+
+/* Form input focused */
+.input:focus-visible {
+  border-color: #CDCDCD;
+  outline: none;
+}
+
+/* Form input placeholder */
+.input::placeholder {
+  color: #868C90;
+  opacity: 1;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px 35px;
+  font-size: 80%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #9D27B1, #E040FB);
+}
+
+/* Forgot password */
+.forgot-password {
+  text-align: center;
+  margin: 30px 0 40px;
+  font-size: 95%;
+}
+
+.forgot-password a {
+  color: #E1BEE7;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Ubuntu-Light';
+}

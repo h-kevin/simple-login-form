@@ -5,6 +5,7 @@
 html,
 body {
   margin: 0;
+  padding: 15px;
   background-color: #F3EBF6;
   height: 100%;
   width: 100%;
@@ -25,8 +26,7 @@ body {
   margin: auto;
   width: 100%;
   max-width: 400px;
-  max-height: 400px;
-  height: auto;
+  height: max-content;
   padding: 30px 30px 15px;
   border-radius: 25px;
   background-color: #FFFFFF;
@@ -38,8 +38,8 @@ body {
 .header {
   color: #8C55AA;
   text-align: center;
-  font-size: 170%;
-  margin-bottom: 50px;
+  font-size: 150%;
+  margin: 10px 0 50px;
 }
 
 /* Form */
@@ -90,7 +90,7 @@ body {
 /* Forgot password */
 .forgot-password {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0 40px;
   font-size: 95%;
 }
 

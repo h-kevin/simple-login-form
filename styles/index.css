@@ -76,6 +76,17 @@ body {
   opacity: 1;
 }
 
+/* Submit button */
+.submit-button {
+  padding: 10px 35px;
+  font-size: 80%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #9D27B1, #E040FB);
+}
+
 /* Forgot password */
 .forgot-password {
   color: #E1BEE7;

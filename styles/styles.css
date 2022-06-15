@@ -11,6 +11,7 @@ body {
 }
 
 /* Container */
+
 .container {
   position: absolute;
   top: 0;
@@ -31,6 +32,7 @@ body {
 }
 
 /* Form */
+
 .login-form {
   text-align: center;
 }

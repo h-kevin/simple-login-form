@@ -6,6 +6,7 @@ body {
   background-color: #F3EBF6;
   height: 100%;
   width: 100%;
+  font-size: 16px;
   position: relative;
   box-sizing: border-box;
 }
@@ -31,8 +32,24 @@ body {
   box-sizing: border-box;
 }
 
+/* Header */
+.header {
+  color: #8C55AA;
+  text-align: center;
+  font-size: 170%;
+  margin-bottom: 50px;
+}
+
 /* Form */
 
 .login-form {
   text-align: center;
+}
+
+/* Forgot password */
+.forgot-password {
+  color: #E1BEE7;
+  text-align: center;
+  font-size: 105%;
+  margin-top: 30px;
 }
